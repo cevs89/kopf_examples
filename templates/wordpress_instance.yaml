@@ -1,0 +1,9 @@
+apiVersion: example.com/v1
+kind: Wordpress
+metadata:
+  name: ejemplo-wordpress
+spec:
+  size: "small"
+  image: "wordpress:latest"
+  replicas: 1
+  database: "wordpress"
